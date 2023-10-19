@@ -1,0 +1,50 @@
+body {
+    background: gray;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    color: lightgray;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0.363);
+}
+
+section {
+    background: lightgray;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.363);
+}
+
+#numeros {
+    margin: 2px;
+    display: inline-block;
+    display: block;
+}
+
+#numeros input {
+    margin: 4px;
+    width: 160px;
+    border-radius: 3px;
+    
+}
+
+#botoes {
+    margin: 2px;
+    display: inline-block;
+}
+
+#botoes input {
+    margin: 4px;
+    width: 78px;
+    border-radius: 3px;
+}
+
+#res {
+    margin-top: 20px
+}

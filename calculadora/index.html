@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Calculadora Online</h1>
+    </header>
+    <section id="content">
+        <!-- Números -->
+        <div id = "numeros"> 
+        <input type="number" id="n1" placeholder="Insira um número.">
+        <input type="number" id="n2" placeholder="Insira um número.">
+        </div>
+        <!-- Botões -->
+        <div id = "botoes">
+        <input type="button" value="Somar" id= "somar" onclick="somar()">
+        <input type="button" value="Subtrair" id= "subtrair" onclick="subtrair()">
+        <input type="button" value="Multiplicar" id= "multiplicar" onclick="multiplicar()">
+        <input type="button" value="Dividir" id= "dividir" onclick="dividir()">
+        </div>
+        <!-- Resultado -->
+        <div id ="res">
+            Resultado...
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
