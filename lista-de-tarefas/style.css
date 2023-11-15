@@ -1,0 +1,32 @@
+body {
+    background: rgb(72, 81, 245);
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+div {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#lConcluidas {
+    text-align: left;
+}
+
+section {
+    background: rgb(178, 178, 236);
+    width: 75%;
+    margin: 0 auto;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

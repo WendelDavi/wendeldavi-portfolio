@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Lista de Tarefas</h1>
+    <section id="conteudo">
+        <!--  Lista  -->
+        <div id="tarefas">
+            <p>
+                Tarefas:
+            </p>
+            <ul id="lista">
+
+            </ul>
+        </div>
+        <!--  Nova Tarefa  -->
+        <div id="novaTarefa">
+            <input type="text" id="tarefa" placeholder="Adicionar tarefa" onkeydown="checarTecla(event)">
+            <input type="button" value="➕" id="add" onclick="adicionar()">
+        </div>
+        <!--  Tarefas Finalizadas  -->
+        <div>
+            <p>
+                Tarefas concluídas:
+            </p>
+            <ul id="lConcluidas">
+    
+            </ul>
+        </div>
+    </section>
+</body>
+<footer>
+    <p>&copy; Wendel Davi</p>
+</footer>
+<script src="script.js"></script>
+</script>
+
+</html>
